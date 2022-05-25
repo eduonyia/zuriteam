@@ -3,16 +3,13 @@
 # count_words("The cake is done. It is a big cake!") 
 # --> {"cake":2, "big":1, "is":2, "the":1, "a":1, "it":1}
 
-from importlib.resources import contents
-
-
 def read_file_content(filename):
     # [assignment] Add your code here
     file = open(filename, "rt")
     data = file.read()
-    contents = data.split()
+    data = data.split()
 
-    return contents
+    return data
 
 
 def count_words():
