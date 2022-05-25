@@ -12,10 +12,10 @@ def find_anagram(word, anagram):
     anagram = sorted(anagram)
 
     if(word== anagram):
-        # print("The strings are anagrams.")
+        # print("Both are anagrams.")
         return True
     else:
-        # print("The strings aren't anagrams.")
+        # print("Both aren't anagrams.")
         return False
 
     
