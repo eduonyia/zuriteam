@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+table,  .subject {
+    border:1px solid black;
+    padding: 5px;
+    word-spacing: 5px; 
+    background-color: azure; 
+  }
+
+  
+  .sum {
+      font-style: italic;
+      font-weight: bold;
+  }
