@@ -1,0 +1,30 @@
+form
+{
+    display: inline-block;
+    margin-top: 70px;
+    text-align: left;
+    border:3px solid #293f50;
+    width: 400px;
+    padding: 15px;
+}
+
+.inp {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-radius: 5px;
+   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+label {
+    font-weight: bold;
+    
+}
+.sub {
+    background: linear-gradient(#49708f, #293f50);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+  }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+    <div class="container">
+
+        <header id="header">
+            <div class="navbar">
+                <a href="index.html">HOME</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="registration.html">REGISTRATION</a>
+                <a href="login.html">LOGIN</a>
+            </div>
+        </header>
+        <main class="main">
+                <h2>REGISTRATION PAGE</h2>
+                <form action="#">
+                    <div class="main-container">
+                        <div>
+                            <label for="fname">First Name</label>
+                            <input class="inp" type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        
+                            </div>
+                            
+                            <div>
+                            <label for="lname">Last Name</label>
+                            <input class="inp" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                            </div>
+        
+                            <div>
+                            <label for="phone">Phone Number</label>
+                            <input class="inp" type="text" id="phone" name="phoneno" placeholder="Phone no." required>
+                            </div>
+                            <div>
+                            <label for="gender">Gender</label>
+                            <select  id="gender" name="gender">
+                              <option value="male">Male</option>
+                              <option value="female">Female</option>
+                              <option value="others">Others</option>
+                            </select>
+                            </div>
+                            <div>
+                                <label for="country">Country</label>
+                                <input class="inp" type="text" id="country" name="country" placeholder="Nigeria">
+                            </div>
+                            <div>
+                                <label for="state">State/Province</label>
+                            <input class="inp" type="text" id="state" name="state" placeholder="Lagos">
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                            <input class="inp" type="text" id="username" name="username" placeholder="username" required>
+                            </div>
+                            <div>
+                                <label for="password">Password</label>
+                            <input class="inp" type="password" id="password" name="password"  required>
+                            </div>
+                            <div>
+                                <label for="passwd">Confirm Password</label>
+                                <input class="inp" type="password" id="passwd" name="passwd" required>
+                            </div>
+                            <div>
+                                <button type="submit">Register</button>
+                            </div>
+
+                    </div>
+                    
+
+                    </form>
+        </main>
+
+        <footer id="footer">
+            <button class="btn"><a href="contact.html">Contact Me</a></button>
+        </footer>
+        
+
+    </div>
+    
+</body>
+</html>

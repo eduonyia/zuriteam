@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+   
+   .container {
+   
+       width: 100%;
+       height: 100vh;
+       background-image: url(./pix.jpg);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       padding-left: 8%;
+       padding-right: 8%;
+       box-sizing: border-box;
+   
+   }
+   
+   #header {
+       height: 3%;
+       display: flex;
+       align-items: center;
+       overflow: hidden;
+       position: relative;
+   
+   }
+   
+   .navbar {
+       text-align: center;
+       flex: 1;
+   }
+   
+   .navbar a {
+       padding: 6px 20px;
+       text-decoration: none;
+       margin-left: 20px;
+       font-size: 20px;
+       font-weight: bold;
+   }
+   
+   .btn {
+       cursor: pointer;
+       color: #cc0052 ;
+       font-size: 18px;
+       letter-spacing: 2px;
+       padding: 10px 30px;
+       border: 2px solid #003333;
+       background: transparent;
+       text-decoration: none;
+       text-align: center;
+       font-weight: bold;
+       margin: 40px 8px;
+   
+   }
+   .btn:hover{
+       color: #000;
+       background-color: #fff;
+   }
+   
+   .btn a:visited {
+       background-color: #fff;
+       color: #cc0052;
+   }
+   
+   .btn a:hover{
+       color: #000;
+      
+   }
+   
+   .btn a:link{
+       text-decoration: none;
+   }
+   
+   .main {
+    clear: left;
+       text-align: center;
+       margin-top: 12%;
+       overflow: auto;
+       color:purple;
+   }
+   
+   .main h1 {
+       font-size: 80px;
+       color:  white;
+   }
+   
+   #footer {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px; 
+
+}
+li {
+    display: list-item;
+    list-style-position: inside;
+  }
+
+  .mypic {
+   width: 200px;
+   margin-left:15px;
+   float: left;
+   border-radius: 50%;
+
+  }
+  
